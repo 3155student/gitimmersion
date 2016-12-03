@@ -1,1 +1,3 @@
-puts "Hello, #{ARGV.firsr}!"
+name = ARGV.first || "World"
+
+puts "Hello, #{name}!"
